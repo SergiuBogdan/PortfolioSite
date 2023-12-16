@@ -1,5 +1,5 @@
 import { useState } from "react";
-import photo from "../assets/images/me.png";
+import photo from "../assets/images/me.jpg";
 import { HiCode, HiOutlineSwitchHorizontal } from "react-icons/hi";
 import { MdSkateboarding } from "react-icons/md";
 import { motion } from "framer-motion";
@@ -75,33 +75,30 @@ const About = () => {
             {toggle === true ? (
               <div>
                 <h3 className="text-center uppercase tracking-tighter font-bold text-cyan-800">
-                  A good day
+                  Something about me
                 </h3>
                 <p className="mt-6 font-light">
-                  An curious person, I possess an insatiable thirst for
-                  knowledge. My interests span from video games to savoring
-                  delectable meals. During my earlier days, I had an inclination
-                  for web development (2010-2012). I relish spending leisure
-                  hours with friends and immersing myself in films, series, and
-                  animes,{" "}
-                  <span className="text-cyan-800 font-bold">coding</span>.
+                  Even though I love to code and explore new technologies, there
+                  is more to life than this. Sometimes, you have to think about
+                  yourself and do something for you. I'm not an interesting guy,
+                  or a very social one, but there is one thing I can tell you:
+                  I'm loyal, and I get things done no matter what.
                 </p>
               </div>
             ) : (
               <div>
                 <h3 className="text-center uppercase tracking-tighter font-bold text-cyan-800">
-                  My journey
+                  How i started
                 </h3>
                 <p className="mt-6 font-light">
-                  A few years back, I steped into the world of{" "}
-                  <span className="text-cyan-800 font-bold">coding</span>{" "}
-                  kickstarting my journey with HTML and CSS to craft and style
-                  web pages. My enthusiasm grew as I delved into Udemy courses,
-                  where I expanded my skills by integrating JavaScript into my
-                  toolkit. Nowadays, I've progressed to using ReactJS for
-                  building single-page applications. I've also taken on more
-                  advanced challenges like developing E-Commerce platforms
-                  utilizing React-Redux for enhanced state management.
+                  My first interaction with the world of web development was in
+                  2012 when I created my first website using WordPress. Over the
+                  span of two years, I developed approximately 10 websites and
+                  forums using WordPress and Wix. After a long pause, I made the
+                  decision to re-enter this domain, better prepared and
+                  enthusiastic about learning new technologies. After extensive
+                  research to determine the technologies that suited me best, I
+                  eventually settled on HTML, CSS, JS, and React.
                 </p>
               </div>
             )}

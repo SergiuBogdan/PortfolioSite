@@ -1,5 +1,5 @@
 import React from "react";
-import heroImage from "../assets/images/heroImage.png";
+import heroImage from "../assets/images/heroimg.png";
 import { motion } from "framer-motion";
 
 const Home = () => {
@@ -24,8 +24,10 @@ const Home = () => {
           </span>
           <br />
           <span className="text-lg md:text-xl tracking-tighter">
-            Currently open for work!
+            Nice to meet you!
           </span>
+          <br />
+          <span>Have a look on my page.</span>
         </motion.h1>
         <motion.div
           initial={{ opacity: 0, x: -50 }}
